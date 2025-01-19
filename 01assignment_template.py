@@ -1,44 +1,64 @@
-# Your solution here:
+# Assignment: Create Your Own Trading Card Game!
+# ============================================
 
-# Task 1: Creating cards
-my_cards = [
-    # Add your cards here!
-]
+# TASK 1: Create Your Card Collection
+# ---------------------------------
+# Create at least 3 cards with:
+# - name
+# - power (number between 1-100)
+# - type (like "Fire", "Water", "Earth")
 
-# Task 2: Card Management
-def add_new_card(collection, name, power, type, special_move):
-    # Your code here
-    pass
+# Example of one card (you can change all the values!):
+card1 = {
+    "name": "Dragon Fighter",
+    "power": 75,
+    "type": "Fire"
+}
 
-def find_strongest_card(collection):
-    # Your code here
-    pass
+# Add more cards here:
+card2 = {
+    # Fill in the information for your second card!
+}
 
-def count_card_types(collection):
-    # Your code here
-    pass
+card3 = {
+    # Fill in the information for your third card!
+}
 
-def calculate_average_power(collection):
-    # Your code here
-    pass
+# Put all cards in a list
+my_cards = [card1, card2, card3]
 
-# Task 3: Battle System
-def battle(card1, card2):
-    # Your code here
-    pass
+# TASK 2: Find Your Strongest Card
+# -------------------------------
+# Look at each card and find the one with highest power
+print("All my cards:", my_cards)
 
-# Test your code
-if __name__ == "__main__":
-    # Add test code here to show your system works!
-    print("My card collection:")
-    print(my_cards)
-    
-''''
-Bonus Challenges:
+strongest_power = 0
+strongest_name = ""
 
-Add a 'rarity' property to cards (like "Common", "Rare", "Legendary")
-Create a function to sort cards by power
-Add a point system for winning battles
-Create a function to save your card collection to a file
+# Write your code here to find the strongest card
 
-'''
+
+# TASK 3: Count Your Cards By Type
+# ------------------------------
+fire_cards = 0
+water_cards = 0
+earth_cards = 0
+
+# Write your code here to count how many cards you have of each type
+
+
+# TASK 4: Simple Battle!
+# --------------------
+# Compare two cards and see which one wins
+
+print("Battle time!")
+# Choose any two cards to battle
+card_a = card1  # You can change this to card2 or card3
+card_b = card2  # You can change this to card1 or card3
+
+# Write your code here to compare their power and show who wins
+
+
+# BONUS: Print out all your cards in a nice way
+print("\nMy Card Collection:")
+# Write code here to print each card's information
