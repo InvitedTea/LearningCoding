@@ -32,7 +32,7 @@ pokemon_level = input("Enter Pokemon level: ")
 
 # Save the Pokedex entry
 with open("pokedex.txt", "a") as file:  # 'a' means append - add to end
-    file.write(f"{pokemon_name},{pokemon_type},{level}\n")
+    file.write(f"{pokemon_name},{pokemon_type},{pokemon_level}\n")
 
 print("Pokedex updated!")
 

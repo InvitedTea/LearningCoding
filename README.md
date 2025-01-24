@@ -34,6 +34,17 @@ Welcome to an exciting journey into the world of coding! This course is designed
 - Create a Pokemon trainer profile
 - Build adventures based on player choices
 
+### Lesson 7: Files and Data Persistence
+- Learn how to save your Pokemon adventures
+- Create a Pokemon journal that stores your progress
+- Read and write data to files
+
+
+### Lesson 8: Randomness and Simulation
+- Introduce randomness into your Pokemon games
+- Simulate Pokemon battles with random outcomes
+- Create more dynamic and unpredictable game events
+
 ## How the Lessons Work 🎮
 
 Each lesson includes:
