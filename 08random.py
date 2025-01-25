@@ -1,4 +1,3 @@
-# 08random_assignment_simplified.py
 import random
 import time
 
@@ -29,7 +28,7 @@ def encounter_pokemon():
 for _ in range(3):  # Encounter 3 Pokemon
     encounter_pokemon()
 
-
+print("second part")
 
 def pokemon_race():
   """A simple race between two random Pokemon"""
